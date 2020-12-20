@@ -1,0 +1,58 @@
+*{ margin: 0; padding: 0; }
+body { margin: 0; padding: 0; width: 100%; color: #000; font-size: 14px; background-attachment: fixed; font-family: "Î¢ÈíÑÅºÚ"; background: url(../img/bg.png) ;}
+ul, li { margin: 0; padding: 0; }
+img{ border: 0; display: block; }
+a { font-family: "Î¢ÈíÑÅºÚ"; font-size: 14px; color: #000; text-decoration: none; cursor: pointer; }
+a:hover { font-family: "Î¢ÈíÑÅºÚ"; color: red;  text-decoration: blink; }
+.clr { clear: both; margin: 0; padding: 0; background: none; height:0; font-size:0; line-height:0; overflow:hidden; display:block; *zoom:1;}
+.container { width: 1200px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+.banner img{ width:100%; height:400px;}
+.banner .container{ position:relative;}
+.banner p{ font-size:50px; letter-spacing:20px; font-weight:bold; position:absolute; left:350px ; right:0; top:120px;}
+.nav .container .menu{ background:#eaaa00; }
+.nav .container ul{ list-style:none; }
+.nav .container ul li{ float:left; width:12.5%; text-align:center; position:relative;}
+.nav .container ul li a{ display:inline-block; padding:15px 0;}
+.cl{ float:left; width:20%;}
+.cr{ float:left; width:80%;}
+.cl ul{ list-style:none; background:#fff; }
+.cl ul li { text-align:center;}
+.cl ul li img{ width:100%;}
+.cl ul li p{ font-size:16px;}
+.cr dl{ float:left; width:33.3333333333333%; text-align:center;}
+.cr dl dt img,.cr dl dt p{ display:inline-block; line-height:30px; font-size:20px; vertical-align:middle;}
+.cr dl dt{ padding:5px 0;}
+.cr dl dt p { margin-left:20px;}
+.cr dl dd a {display:block; font-size:16x; line-height:30px; margin:26px 0;}
+.bg1{ background:#fff1ce;}
+.bg2{ background:#ffcd9a;}
+.left{ float:left;}
+.right{ float:right;}  
+.mid{ width:90% !important; display:inline-block; height:240px;}
+
+.pics{ list-style:none;}
+.pics li{ width:25%; float:left; text-align:center; margin-bottom:10px;}
+.pics li a img{ width:95%; height:300px;}
+.xiangxi{ width:95%; margin:10px 0;}
+.xiangxi .money{ color:Red;} 
+#danshen{ display:none;
+          position:absolute;
+          left:0px;
+          top:49px;
+          width:100%;
+          background: #eaaa00; }
+
+.bg4{ background:#cccccc; padding:20px;}
+.foot ul{ display:inline-block; width:80%; float:left; list-style:none; }
+.foot ul li{ float:left; width:20%;}
+.foot ul li h3{ color:Red;}
+.foot ul li a{ display:block;  width:50%; text-align:right; margin:10px 0;}
+.conn{ text-align:center; margin:30px 0 20px 0;} 
+.conn h3{ color:Red; margin-bottom:10px;}
+.conn img{ display:inline-block;} 
+.copy{ text-align:center; font-size:16px;  margin-top:20px;}
+.copy span { color:#b35958;}  
+.reg{width:680px; margin:10px auto; color:#333;} 
+form p{padding:4px; line-height:20px; clear:both}
+form p label{display:block; float:left; width:100px; padding-top:2px}
+.btn{ padding:10px 20px; background-color:#eaaa00;}

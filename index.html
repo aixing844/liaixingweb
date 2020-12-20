@@ -1,0 +1,389 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" /> 
+    <script src="js/danshen.js" type="text/javascript"></script> 
+</head>
+<body>
+    <div class=" banner">
+        <div class=" container">
+            <img src="img/banner1.jpg" id="img" />
+            <script>
+                var a = ["banner3.jpg", "banner1.jpg", "banner2.jpg"];
+                var k = 0;
+                var time = 3;
+                var tID;
+                function nextImg() {
+                    k++;
+                    if (k === a.length)
+                        k = 0;
+                    document.getElementById("img").src = "img/" + a[k];
+                }
+                function setTime() {
+                    time--;
+                    if (time <= 0) {
+                        nextImg();
+                        time = 3;
+
+                    }
+                }
+                tID = setInterval("setTime()", 1000);
+            </script>
+            <p>
+                单身狗粮专卖店</p>
+        </div>
+    </div>
+    <div class=" nav">
+        <div class=" container">
+            <ul class=" menu">
+                <li><a href="index.html">首页</a></li>
+                <li onmouseover="show()" onmouseout="hide()"><a href="#">产品</a>
+                    <dl id="danshen">
+                        <dd>
+                            <a href="#">单身狗恋爱礼包1</a></dd>
+                        <dd>
+                            <a href="#">单身狗恋爱礼包2</a></dd>
+                    </dl>
+                </li>
+                <li><a href="#">展示</a></li>
+                <li><a href="#">联系我们</a></li>
+                <div class=" clr">
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class=" content">
+        <div class=" container">
+            <div class=" cl">
+                <ul>
+                    <li><a href="#">
+                        <img src="img/11.jpg" /></a>
+                        <p>
+                            单身狗恋爱礼包</p>
+                    </li>
+                    <li><a href="#">
+                        <img src="img/22.jpg" /></a><p>
+                            任性牌单身狗粮</p>
+                    </li>
+                    <li><a href="#">
+                        <img src="img/33.jpg" /></a><p>
+                            今天你吃狗粮了么</p>
+                    </li>
+                </ul>
+            </div>
+            <div class=" cr">
+                <dl>
+                    <dt class="bg1">
+                        <img src="img/i11.jpg" /><p>
+                            单身狗粮(80后)</p>
+                        <div class=" clr">
+                        </div>
+                    </dt>
+                    <dd>
+                        <a href="#">信息秒回地中海盐味 </a><a href="#">喜欢吐槽日式青芥味 </a><a href="#">无聊闲逛美式可乐味 </a><a
+                            href="#">戴耳机听歌死宅麻辣味 </a><a href="#">爱咋咋的翠花酸菜味 </a><a href="#">李小龙海鲜味 </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="bg2">
+                        <img src="img/i11.jpg" /><p>
+                            单身狗粮(90后)</p>
+                    </dt>
+                    <dd>
+                        <a href="#">信息秒回地中海盐味 </a><a href="#">喜欢吐槽日式青芥味 </a><a href="#">无聊闲逛美式可乐味 </a><a
+                            href="#">戴耳机听歌死宅麻辣味 </a><a href="#">爱咋咋的翠花酸菜味 </a><a href="#">李小龙海鲜味 </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="bg1">
+                        <img src="img/i11.jpg" /><p>
+                            单身狗粮(00后)</p>
+                    </dt>
+                    <dd>
+                        <a href="#">信息秒回地中海盐味 </a><a href="#">喜欢吐槽日式青芥味 </a><a href="#">无聊闲逛美式可乐味 </a><a
+                            href="#">戴耳机听歌死宅麻辣味 </a><a href="#">爱咋咋的翠花酸菜味 </a><a href="#">李小龙海鲜味 </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="bg2">
+                        <img src="img/i11.jpg" /><p>
+                            李小龙海鲜味</p>
+                    </dt>
+                    <dd>
+                        <a href="#">信息秒回地中海盐味 </a><a href="#">喜欢吐槽日式青芥味 </a><a href="#">无聊闲逛美式可乐味 </a><a
+                            href="#">戴耳机听歌死宅麻辣味 </a><a href="#">爱咋咋的翠花酸菜味 </a><a href="#">李小龙海鲜味 </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="bg1">
+                        <img src="img/i11.jpg" /><p>
+                            李白麻辣味</p>
+                    </dt>
+                    <dd>
+                        <a href="#">信息秒回地中海盐味 </a><a href="#">喜欢吐槽日式青芥味 </a><a href="#">无聊闲逛美式可乐味 </a><a
+                            href="#">戴耳机听歌死宅麻辣味 </a><a href="#">爱咋咋的翠花酸菜味 </a><a href="#">李小龙海鲜味 </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="bg2">
+                        <img src="img/i11.jpg" /><p>
+                            世界杯国家版</p>
+                    </dt>
+                    <dd>
+                        <a href="#">信息秒回地中海盐味 </a><a href="#">喜欢吐槽日式青芥味 </a><a href="#">无聊闲逛美式可乐味 </a><a
+                            href="#">戴耳机听歌死宅麻辣味 </a><a href="#">爱咋咋的翠花酸菜味 </a><a href="#">李小龙海鲜味 </a>
+                    </dd>
+                </dl>
+            </div>
+            <div class=" clr">
+            </div>
+        </div>
+    </div>
+    <div class=" content">
+        <div class=" container">
+            <ul class=" pics">
+                <li><a href="#">
+                    <img src="img/11.jpg"></a>
+                    <div class=" xiangxi">
+                        <div class=" money left">
+                            20元</div>
+                        <div class="shuliang right">
+                            成交100笔</div>
+                        <div class=" clr">
+                        </div>
+                        <div class=" title">
+                            单身狗恋爱礼包</div>
+                    </div>
+                </li>
+                <li><a href="#">
+                    <img src="img/22.jpg"></a>
+                    <div class=" xiangxi">
+                        <div class=" money left">
+                            20元</div>
+                        <div class="shuliang right">
+                            成交100笔</div>
+                        <div class=" clr">
+                        </div>
+                        <div class=" title">
+                            单身狗恋爱礼包</div>
+                    </div>
+                </li>
+                <li><a href="#">
+                    <img src="img/33.jpg"></a>
+                    <div class=" xiangxi">
+                        <div class=" money left">
+                            20元</div>
+                        <div class="shuliang right">
+                            成交100笔</div>
+                        <div class=" clr">
+                        </div>
+                        <div class=" title">
+                            单身狗恋爱礼包</div>
+                    </div>
+                </li>
+                <li><a href="#">
+                    <img src="img/44.jpg"></a>
+                    <div class=" xiangxi">
+                        <div class=" money left">
+                            20元</div>
+                        <div class="shuliang right">
+                            成交100笔</div>
+                        <div class=" clr">
+                        </div>
+                        <div class=" title">
+                            单身狗恋爱礼包</div>
+                    </div>
+                </li>
+                <li><a href="#">
+                    <img src="img/55.jpg"></a>
+                    <div class=" xiangxi">
+                        <div class=" money left">
+                            20元</div>
+                        <div class="shuliang right">
+                            成交100笔</div>
+                        <div class=" clr">
+                        </div>
+                        <div class=" title">
+                            单身狗恋爱礼包</div>
+                    </div>
+                </li>
+                <li><a href="#">
+                    <img src="img/66.jpg"></a>
+                    <div class=" xiangxi">
+                        <div class=" money left">
+                            20元</div>
+                        <div class="shuliang right">
+                            成交100笔</div>
+                        <div class=" clr">
+                        </div>
+                        <div class=" title">
+                            单身狗恋爱礼包</div>
+                    </div>
+                </li>
+                <li><a href="#">
+                    <img src="img/77.jpg"></a>
+                    <div class=" xiangxi">
+                        <div class=" money left">
+                            20元</div>
+                        <div class="shuliang right">
+                            成交100笔</div>
+                        <div class=" clr">
+                        </div>
+                        <div class=" title">
+                            单身狗恋爱礼包</div>
+                    </div>
+                </li>
+                <li><a href="#">
+                    <img src="img/88.jpg"></a>
+                    <div class=" xiangxi">
+                        <div class=" money left">
+                            20元</div>
+                        <div class="shuliang right">
+                            成交100笔</div>
+                        <div class=" clr">
+                        </div>
+                        <div class=" title">
+                            单身狗恋爱礼包</div>
+                    </div>
+                </li>
+            </ul>
+            <div class=" clr">
+            </div>
+        </div>
+    </div>
+    <div class=" content">
+        <div class=" container">
+            <div class="reg">
+                <form >
+                <p>
+                    <label>
+                        用户名：</label><input type="text" id="username"></p>
+                <p>
+                    <label>
+                        密码：</label><input type="password"  id="pwd"></p>
+                <p>
+                    <label>
+                        性别：</label><input type="radio" name="sex">
+                    男
+                    <input type="radio" name="sex">
+                    女
+                </p>
+                <p>
+                    <label>
+                        学历：</label>
+                    <select>
+                        <option value="1">博士</option>
+                        <option value="2">硕士</option>
+                        <option value="3">大学本科</option>
+                        <option value="4">大专</option>
+                        <option value="5">中技</option>
+                    </select>
+                </p>
+                <p>
+                    <label>
+                        短信订阅：</label><input type="checkbox">
+                    开通<input type="checkbox">
+                    不开通</p>
+                <p>
+                    <label>
+                        备注：</label>
+                    <textarea name="note" rows="6" cols="40"></textarea>
+                </p>
+                <p>
+                    <label>
+                        &nbsp;</label><input type="button" class=" btn" value="注册" onclick="return check()" ></p>
+                </form>
+
+
+                 <script>
+                     function checkuser() {
+                         var pattern = /^[A-Za-z][A-Za-z0-9_]{5,11}$/;
+                         var username = document.getElementById("username").value;
+                         if (username == "") {
+                             alert("请输入用户名！");
+                             return false;
+                         }
+                         else if (!pattern.test(username)) {
+                             alert("用户名格式不对要求字母开头只能包含字母数字下划线6-12位！");
+                             return false
+                         } else {
+                             return true;
+                         }
+                     }
+                     function checkpwd() {
+                         var pattern1 = /^\d{6}$/;
+                         var pwd = document.getElementById("pwd").value; 
+                         if (pwd == "") {
+                             alert("请输入密码！");
+                             return false;
+                         } 
+                         return true;
+                     } 
+
+                     function check() {
+                         if (checkuser() && checkpwd()) {
+                             alert("注册成功！"); 
+                             return true;
+                         } else {
+                             return false;
+                         }
+                     }
+    </script>
+            </div>
+            <div class=" clr">
+            </div>
+        </div>
+    </div>
+    <div class=" foot">
+        <div class=" container">
+            <div class=" bg4">
+                <ul>
+                    <li>
+                        <h3>
+                            网站声明</h3>
+                        <a href="#">服务声明</a><a href="#">隐私条款</a><a href="#">安全条款</a></li>
+                    <li>
+                        <h3>
+                            支付声明</h3>
+                        <a href="#">支付方式</a><a href="#">在线支付</a><a href="#">虚拟账户</a></li>
+                    <li>
+                        <h3>
+                            配送方式</h3>
+                        <a href="#">配送声明</a><a href="#">配送地区</a><a href="#">配送方式</a></li>
+                    <li>
+                        <h3>
+                            售后服务</h3>
+                        <a href="#">会员积分</a><a href="#">售后处理</a><a href="#">投诉说明</a></li>
+                    <li>
+                        <h3>
+                            关于我们</h3>
+                        <a href="#">常见问题</a><a href="#">关于我们</a><a href="#">联系我们</a></li>
+                    <div class=" clr">
+                    </div>
+                </ul>
+                <div class=" left w20 conn">
+                    <h3>
+                        15858585858</h3>
+                    <h3>
+                        周一到周日 9：00 - 21：00</h3>
+                    <img src="img/cona.jpg" />
+                </div>
+                <div class=" clr">
+                </div>
+                <p class=" copy">
+                    2005-2020 <span>单身狗粮专卖店</span> 版权所有,并保留所有权利.E-MAIL:*********.COM ICP统计 站长统计
+                    <script language=JavaScript>
+                        var d, s = "";
+                        var x = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+                        d = new Date();
+                        s += d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日　";
+                        s += x[d.getDay()];
+                        document.writeln(s);
+</script>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
